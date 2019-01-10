@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{DD847360-3E28-4657-B782-C22F58AF19F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceControlApp/Service/PageService.cs">
+    <Files>
+      <File FileName="DeviceControlApp/Service/IPageService.cs" Line="9" Column="32" />
+      <File FileName="DeviceControlApp/Service/PageService.cs" Line="4" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DeviceControlApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DeviceControlApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.94B8EB41-8E93-46D4-802F-68C1D6307BA7" />
+</Properties>
