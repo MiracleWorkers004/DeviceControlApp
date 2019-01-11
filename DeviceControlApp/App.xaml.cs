@@ -1,5 +1,5 @@
 ﻿using System;
-using DeviceControlApp.Service;
+
 using DeviceControlApp.View;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;

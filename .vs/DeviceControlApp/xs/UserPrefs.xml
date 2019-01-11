@@ -1,8 +1,8 @@
-﻿<Properties StartupConfiguration="{DD847360-3E28-4657-B782-C22F58AF19F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceControlApp/View/ProductPage.xaml.cs">
+﻿<Properties StartupConfiguration="{873E2651-CC92-4621-A828-CB5785D504DC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceControlApp/ViewModel/BaseViewModel.cs">
     <Files>
       <File FileName="DeviceControlApp/View/HomePage.xaml" Line="13" Column="1" />
-      <File FileName="DeviceControlApp/ViewModel/HomePageViewModel.cs" Line="24" Column="13" />
+      <File FileName="DeviceControlApp/ViewModel/HomePageViewModel.cs" Line="26" Column="42" />
       <File FileName="DeviceControlApp/Service/PageService.cs" Line="12" Column="10" />
       <File FileName="DeviceControlApp/View/HomePage.xaml.cs" Line="10" Column="26" />
       <File FileName="DeviceControlApp/ViewModel/IPageService.cs" Line="9" Column="9" />
@@ -10,6 +10,7 @@
       <File FileName="DeviceControlApp/App.xaml.cs" Line="12" Column="9" />
       <File FileName="DeviceControlApp/ViewModel/ProductViewModel.cs" Line="65" Column="10" />
       <File FileName="DeviceControlApp/View/ProductPage.xaml.cs" Line="13" Column="13" />
+      <File FileName="DeviceControlApp/ViewModel/BaseViewModel.cs" Line="11" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

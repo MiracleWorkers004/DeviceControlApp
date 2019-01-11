@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 using DeviceControlApp.Model;
-using DeviceControlApp.Service;
+
 using DeviceControlApp.View;
 using Xamarin.Forms;
 
@@ -14,7 +14,7 @@ namespace DeviceControlApp.ViewModel
         public ICommand BackCommand { get; private set; }
         public DemoDate _data;
 
-
+        public IPageService _pageService;
        
         public string Message
         {
