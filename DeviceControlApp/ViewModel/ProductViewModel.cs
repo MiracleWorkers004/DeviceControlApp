@@ -34,10 +34,10 @@ namespace DeviceControlApp.ViewModel
                 NotifyPropertyChanged("Flag");
             }
         }
-        public ProductViewModel(INavigation navigation)
+        public ProductViewModel(IPageService pageService)
         {
-            _navigation = navigation;
-       //     _pageService = new PageService();
+
+            _pageService = pageService;
             _data = new DemoDate();
             Message = "Turned on";
             Flag = true;
@@ -62,9 +62,8 @@ namespace DeviceControlApp.ViewModel
 
         public void OnBackCommand()
         {
-            //_navigation.PushModalAsync(new HomePage());
-         //   App.pageService.GoNext(typeof(HomePage));
-           // _pageService.PushNextPage(_navigation, typeof(HomePage));
+         
+            _pageService.GoNext(typeof(HomePageViewModel));
         }
 
        

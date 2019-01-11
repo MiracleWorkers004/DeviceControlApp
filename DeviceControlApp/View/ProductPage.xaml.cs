@@ -10,7 +10,7 @@ namespace DeviceControlApp.View
         public ProductPage()
         {
             InitializeComponent();
-            BindingContext = new ProductViewModel(Navigation);
+          //  BindingContext = new ProductViewModel();
         }
     }
 }

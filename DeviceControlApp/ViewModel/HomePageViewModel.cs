@@ -21,10 +21,9 @@ namespace DeviceControlApp.ViewModel
 
         public void OnNextCommand()
         {
-            // _navigation.PushModalAsync(new ProductPage());
-            //  _pageService.PushNextPage(_navigation, typeof(ProductPage));
-            //   App.pageService.GoNext(typeof(ProductPage));
-            _pageService.GoNext(typeof(ProductViewModel));
+            var viewModel = new ProductViewModel(_pageService);
+
+            _pageService.GoNext(viewModel);
         }
     }
 }
