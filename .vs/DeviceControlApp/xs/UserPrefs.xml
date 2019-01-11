@@ -1,12 +1,19 @@
 ﻿<Properties StartupConfiguration="{DD847360-3E28-4657-B782-C22F58AF19F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceControlApp/Service/PageService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceControlApp/ViewModel/IPageService.cs">
     <Files>
-      <File FileName="DeviceControlApp/Service/IPageService.cs" Line="9" Column="32" />
-      <File FileName="DeviceControlApp/Service/PageService.cs" Line="4" Column="42" />
+      <File FileName="DeviceControlApp/View/HomePage.xaml" Line="13" Column="1" />
+      <File FileName="DeviceControlApp/ViewModel/HomePageViewModel.cs" Line="27" Column="59" />
+      <File FileName="DeviceControlApp/Service/PageService.cs" Line="12" Column="10" />
+      <File FileName="DeviceControlApp/View/HomePage.xaml.cs" Line="10" Column="26" />
+      <File FileName="DeviceControlApp/ViewModel/IPageService.cs" Line="8" Column="41" />
+      <File FileName="DeviceControlApp/View/PageService.cs" Line="22" Column="22" />
+      <File FileName="DeviceControlApp/App.xaml.cs" Line="12" Column="9" />
+      <File FileName="DeviceControlApp/ViewModel/ProductViewModel.cs" Line="66" Column="12" />
+      <File FileName="DeviceControlApp/View/ProductPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DeviceControlApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DeviceControlApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" FirstBuild="True" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

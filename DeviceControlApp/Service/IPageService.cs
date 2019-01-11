@@ -8,5 +8,8 @@ namespace DeviceControlApp.Service
     {
         Task PushModalAsync(Page page);
         Task PopModalAsync(Page page);
+        void PushNextPage(INavigation navigation, Type pagename);
+
+        Task GoNext(Type pagename);
     }
 }

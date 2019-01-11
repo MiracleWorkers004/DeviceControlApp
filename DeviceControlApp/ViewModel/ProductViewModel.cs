@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 using DeviceControlApp.Model;
+using DeviceControlApp.Service;
 using DeviceControlApp.View;
 using Xamarin.Forms;
 
@@ -36,6 +37,7 @@ namespace DeviceControlApp.ViewModel
         public ProductViewModel(INavigation navigation)
         {
             _navigation = navigation;
+       //     _pageService = new PageService();
             _data = new DemoDate();
             Message = "Turned on";
             Flag = true;
@@ -60,7 +62,9 @@ namespace DeviceControlApp.ViewModel
 
         public void OnBackCommand()
         {
-            _navigation.PushModalAsync(new HomePage());
+            //_navigation.PushModalAsync(new HomePage());
+         //   App.pageService.GoNext(typeof(HomePage));
+           // _pageService.PushNextPage(_navigation, typeof(HomePage));
         }
 
        

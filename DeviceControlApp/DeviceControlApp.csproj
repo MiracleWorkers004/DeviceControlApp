@@ -18,4 +18,8 @@
     <Folder Include="ViewModel\" />
     <Folder Include="Service\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Service\IPageService.cs" />
+    <Compile Remove="Service\PageService.cs" />
+  </ItemGroup>
 </Project>

@@ -10,7 +10,7 @@ namespace DeviceControlApp.View
         public HomePage()
         {
             InitializeComponent();
-            BindingContext = new HomePageViewModel(Navigation);
+            BindingContext = new HomePageViewModel(new PageService());
         }
     }
 }
