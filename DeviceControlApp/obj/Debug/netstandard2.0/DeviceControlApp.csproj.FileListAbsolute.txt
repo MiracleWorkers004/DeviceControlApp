@@ -1,7 +1,6 @@
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/bin/Debug/netstandard2.0/DeviceControlApp.deps.json
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/bin/Debug/netstandard2.0/DeviceControlApp.dll
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/bin/Debug/netstandard2.0/DeviceControlApp.pdb
-/Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/obj/Debug/netstandard2.0/DeviceControlApp.csprojAssemblyReference.cache
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/obj/Debug/netstandard2.0/View/HomePage.xaml.g.cs
@@ -12,3 +11,4 @@
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/obj/Debug/netstandard2.0/DeviceControlApp.dll
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/obj/Debug/netstandard2.0/DeviceControlApp.pdb
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/obj/Debug/netstandard2.0/DeviceControlApp.csprojAssemblyReference.cache

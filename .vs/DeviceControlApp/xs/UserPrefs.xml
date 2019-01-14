@@ -1,24 +1,21 @@
-﻿<Properties StartupConfiguration="{873E2651-CC92-4621-A828-CB5785D504DC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceControlApp/ViewModel/BaseViewModel.cs">
+﻿<Properties StartupConfiguration="{6517F140-28F8-4965-BA31-F3160E82C873}|Default">
+  <MonoDevelop.Ide.ItemProperties.DemoUnitTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUnitTest/UnitTest1.cs">
     <Files>
-      <File FileName="DeviceControlApp/View/HomePage.xaml" Line="13" Column="1" />
-      <File FileName="DeviceControlApp/ViewModel/HomePageViewModel.cs" Line="26" Column="42" />
-      <File FileName="DeviceControlApp/Service/PageService.cs" Line="12" Column="10" />
-      <File FileName="DeviceControlApp/View/HomePage.xaml.cs" Line="10" Column="26" />
-      <File FileName="DeviceControlApp/ViewModel/IPageService.cs" Line="9" Column="9" />
-      <File FileName="DeviceControlApp/View/PageService.cs" Line="58" Column="10" />
-      <File FileName="DeviceControlApp/App.xaml.cs" Line="12" Column="9" />
-      <File FileName="DeviceControlApp/ViewModel/ProductViewModel.cs" Line="65" Column="10" />
-      <File FileName="DeviceControlApp/View/ProductPage.xaml.cs" Line="13" Column="13" />
-      <File FileName="DeviceControlApp/ViewModel/BaseViewModel.cs" Line="11" Column="7" />
+      <File FileName="iOSDemo/Main.cs" Line="1" Column="1" />
+      <File FileName="iOSDemo/UnitTestAppDelegate.cs" Line="1" Column="1" />
+      <File FileName="iOSDemo/DemoIOSTest.cs" Line="15" Column="31" />
+      <File FileName="DeviceControlApp.Tests/Tests.cs" Line="32" Column="12" />
+      <File FileName="DemoUnitTest/UnitTest1.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DeviceControlApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.iOSDemo automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.DeviceControlApp.Android PreferredExecutionTarget="Android.Nexus_6_API_28" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DeviceControlApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.94B8EB41-8E93-46D4-802F-68C1D6307BA7" />
+  <MonoDevelop.Ide.ItemProperties.DeviceControlApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.94B8EB41-8E93-46D4-802F-68C1D6307BA7" automaticSigning="False" />
 </Properties>

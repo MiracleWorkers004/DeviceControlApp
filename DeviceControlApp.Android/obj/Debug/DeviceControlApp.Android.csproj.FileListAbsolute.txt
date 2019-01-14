@@ -4,7 +4,6 @@
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/bin/Debug/com.siemens.DeviceControlApp-Signed.apk
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/bin/Debug/DeviceControlApp.dll
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/bin/Debug/DeviceControlApp.pdb
-/Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/obj/Debug/DeviceControlApp.Android.csprojAssemblyReference.cache
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/obj/Debug/res.flag
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/obj/Debug/DeviceControlApp.Android.csproj.CoreCompileInputs.cache
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/obj/Debug/XamlC.stamp
@@ -31,6 +30,7 @@
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/obj/Debug/R.cs.flag
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/obj/Debug/R.txt
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/obj/Debug/uploadflags.txt
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/obj/Debug/DeviceControlApp.Android.csprojAssemblyReference.cache
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/bin/Debug/Mono.Android.pdb
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/bin/Debug/Xamarin.Forms.Core.pdb
 /Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.Android/bin/Debug/Xamarin.Forms.Xaml.pdb

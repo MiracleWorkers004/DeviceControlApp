@@ -1,0 +1,17 @@
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/DemoUnitTest.deps.json
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/DemoUnitTest.runtimeconfig.json
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/DemoUnitTest.runtimeconfig.dev.json
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/DemoUnitTest.dll
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/DemoUnitTest.pdb
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/obj/Debug/netcoreapp2.1/DemoUnitTest.csprojAssemblyReference.cache
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/obj/Debug/netcoreapp2.1/DemoUnitTest.csproj.CoreCompileInputs.cache
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/obj/Debug/netcoreapp2.1/DemoUnitTest.AssemblyInfoInputs.cache
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/obj/Debug/netcoreapp2.1/DemoUnitTest.AssemblyInfo.cs
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/obj/Debug/netcoreapp2.1/DemoUnitTest.dll
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/obj/Debug/netcoreapp2.1/DemoUnitTest.pdb
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/DeviceControlApp.dll
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/bin/Debug/netcoreapp2.1/DeviceControlApp.pdb
+/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/obj/Debug/netcoreapp2.1/DemoUnitTest.csproj.CopyComplete

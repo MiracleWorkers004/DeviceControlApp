@@ -62,8 +62,9 @@ namespace DeviceControlApp.ViewModel
 
         public void OnBackCommand()
         {
-         
-            _pageService.GoNext(typeof(HomePageViewModel));
+
+            var viewModel = new HomePageViewModel(_pageService);
+            _pageService.GoNext(viewModel);
         }
 
        

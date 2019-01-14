@@ -195,6 +195,7 @@
 -r=/Users/audiology/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/audiology/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/audiology/.nuget/packages/xamarin.forms/3.1.0.697729/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+-r=/Users/audiology/.nuget/packages/xamarin.testcloud.agent/0.21.7/lib/Xamarin.iOS/Calabash.dll
 -r=/Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp/bin/Debug/netstandard2.0/DeviceControlApp.dll
 --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/audiology/Projects/TestingApp/DeviceControlApp/DeviceControlApp.iOS/bin/iPhoneSimulator/Debug/DeviceControlApp.iOS.exe
