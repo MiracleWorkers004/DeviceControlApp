@@ -1,4 +1,6 @@
 ﻿using System;
+using Plugin.Geolocator.Abstractions;
+
 namespace DeviceControlApp.Model
 {
     public class DemoDate
@@ -9,6 +11,22 @@ namespace DeviceControlApp.Model
             set;
         }
         public bool flag
+        {
+            get;
+            set;
+        }
+        public Position position
+        {
+            get;
+            set;
+        }
+        public string Latitude
+        {
+            get;
+            set;
+        }
+
+        public string Longitude
         {
             get;
             set;

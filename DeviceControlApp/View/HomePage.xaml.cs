@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DeviceControlApp.Services;
 using DeviceControlApp.ViewModel;
 using Xamarin.Forms;
 
@@ -10,7 +11,7 @@ namespace DeviceControlApp.View
         public HomePage()
         {
             InitializeComponent();
-            BindingContext = new HomePageViewModel(new PageService());
+            BindingContext = new HomePageViewModel(new PageService(),new LocationService());
         }
     }
 }

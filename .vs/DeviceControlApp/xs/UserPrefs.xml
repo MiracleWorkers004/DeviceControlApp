@@ -1,13 +1,22 @@
-﻿<Properties StartupConfiguration="{6517F140-28F8-4965-BA31-F3160E82C873}|Default">
+﻿<Properties StartupConfiguration="{DD847360-3E28-4657-B782-C22F58AF19F1}|Default">
   <MonoDevelop.Ide.ItemProperties.DemoUnitTest PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUnitTest/UnitTest1.cs">
+  <MonoDevelop.Ide.ItemProperties.DeviceControlUnitTestDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUnitTest/DummyLocationService.cs">
     <Files>
-      <File FileName="iOSDemo/Main.cs" Line="1" Column="1" />
-      <File FileName="iOSDemo/UnitTestAppDelegate.cs" Line="1" Column="1" />
-      <File FileName="iOSDemo/DemoIOSTest.cs" Line="15" Column="31" />
-      <File FileName="DeviceControlApp.Tests/Tests.cs" Line="32" Column="12" />
-      <File FileName="DemoUnitTest/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="DemoUnitTest/UnitTest1.cs" Line="71" Column="1" />
+      <File FileName="DeviceControlApp/ViewModel/ProductViewModel.cs" Line="68" Column="64" />
+      <File FileName="DeviceControlApp/Services/LocationService.cs" Line="21" Column="1" />
+      <File FileName="DemoUnitTest/DummyLocationService.cs" Line="14" Column="55" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DeviceControlApp" expanded="True" selected="True">
+            <Node name="DeviceControlApp.Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.iOSDemo automaticSigning="False" />

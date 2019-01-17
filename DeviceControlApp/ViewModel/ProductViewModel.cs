@@ -1,69 +1,88 @@
 ﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using DeviceControlApp.Model;
-
+using DeviceControlApp.Services;
 using DeviceControlApp.View;
+using Plugin.Geolocator;
+using Plugin.Geolocator.Abstractions;
 using Xamarin.Forms;
 
 namespace DeviceControlApp.ViewModel
 {
     public class ProductViewModel:BaseViewModel
     {
-        public ICommand MessageCommand { get; private set; }
-
+       
         public ICommand BackCommand { get; private set; }
-        public DemoDate _data;
+
+        public ICommand DisplayLocationCommand { get; private set; }
+
 
         public IPageService _pageService;
-       
-        public string Message
+
+        public ILocationService _locationService;
+
+
+
+
+        private string _latitude;
+        public string Latitude
         {
-            get => _data.Message;
+
+            get => _latitude;
             set
             {
-                _data.Message = value;
-                NotifyPropertyChanged("Message");
+
+                _latitude = value;
+                NotifyPropertyChanged("Latitude");
             }
+
         }
-        public bool Flag
+        private string _longitude;
+        public string Longitude
         {
-            get => _data.flag;
+
+            get => _longitude;
             set
             {
-                _data.flag = value;
-                NotifyPropertyChanged("Flag");
+
+                _longitude = value;
+                NotifyPropertyChanged("Longitude");
             }
+
         }
-        public ProductViewModel(IPageService pageService)
+        public ProductViewModel(IPageService pageService,ILocationService locationService)
         {
 
             _pageService = pageService;
-            _data = new DemoDate();
-            Message = "Turned on";
-            Flag = true;
-            MessageCommand = new Command(OnMessageChangeCommand);
+            _locationService = locationService;
+          
+   
+
             BackCommand = new Command(OnBackCommand);
+            DisplayLocationCommand = new Command(() => { GetLocationSync(); });
         }
 
-        private void OnMessageChangeCommand(object obj)
+        private async Task<int> GetLocation()
         {
-            if (Flag)
-            {
-                Message = "Turned off";
-                Flag = false;
-            }
-            else
-            {
-                Message = "Turned on";
-                Flag = true;
-            }
 
+            var myLocation = await _locationService.GetLocation();
+            Latitude = myLocation.Latitude;
+            Longitude = myLocation.Longitude;
+            return 1;
         }
+
+        private void GetLocationSync()
+        {
+            GetLocation().Wait();
+        }
+
+
 
         public void OnBackCommand()
         {
 
-            var viewModel = new HomePageViewModel(_pageService);
+            var viewModel = new HomePageViewModel(_pageService,_locationService);
             _pageService.GoNext(viewModel);
         }
 

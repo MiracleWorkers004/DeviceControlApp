@@ -8,9 +8,12 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
             <Button Text="{Binding Message}" BackgroundColor="White" Command="{Binding MessageCommand}"/>
-            
+             <!--Clicked="GetLocationClicked"-->
            <Button Text="Back"  Command="{Binding BackCommand}"/>
-       
+            <Button Text="GetLocation" Command="{Binding DisplayLocationCommand}"/>
+          <Label x:Name="Latitude" Text="{Binding Latitude}"/>
+             <Label x:Name="Longitude" Text="{Binding Longitude}"/>
+            
         </StackLayout>
        
     </ContentPage.Content>

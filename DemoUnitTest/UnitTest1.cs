@@ -24,14 +24,27 @@ namespace DemoUnitTest
         public void When_we_go_next_in_home_then_we_go_to_products_page()
         {
             var dummyPageService = new DummyPageService();
-            var homePageViewModel = new HomePageViewModel(dummyPageService);
+            var locationdumyService = new DummyLocationService();
+            var homePageViewModel = new HomePageViewModel(dummyPageService,locationdumyService);
             var canGoNext = homePageViewModel.NextCommand.CanExecute(null);
             homePageViewModel.NextCommand.Execute(null);
 
             Assert.AreEqual(true, canGoNext);
             Assert.AreEqual(typeof(ProductViewModel), dummyPageService.GetViewModelPageType());
         }
+        [TestMethod]
+        public void Test1Location()
+        {
+            var dummyPageService = new DummyPageService();
+            var dummyLocationService = new DummyLocationService();
+            var productPageViewModel = new ProductViewModel(dummyPageService,dummyLocationService);
+            var canGetLocation = productPageViewModel.DisplayLocationCommand.CanExecute(null);
+            productPageViewModel.DisplayLocationCommand.Execute(null);
 
+            Assert.AreEqual("1.0", productPageViewModel.Latitude);
+            Assert.AreEqual("2.0", productPageViewModel.Longitude);
+
+        }
 
 
     }

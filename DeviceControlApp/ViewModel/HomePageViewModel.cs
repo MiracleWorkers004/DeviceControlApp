@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Input;
-
+using DeviceControlApp.Services;
 using DeviceControlApp.View;
 using Xamarin.Forms;
 
@@ -11,18 +11,21 @@ namespace DeviceControlApp.ViewModel
         public ICommand NextCommand { get; private set; }
       
         private IPageService _pageService;
-        public HomePageViewModel(IPageService pageService)
+
+        private ILocationService _locationService;
+        public HomePageViewModel(IPageService pageService,ILocationService locationService)
         {
           
             _pageService = pageService;
+            _locationService = locationService;
             NextCommand = new Command(OnNextCommand);
         }
 
-        public void OnNextCommand()
+        public async void OnNextCommand()
         {
-            var viewModel = new ProductViewModel(_pageService);
+            var viewModel = new ProductViewModel(_pageService,_locationService);
 
-            _pageService.GoNext(viewModel);
+            await _pageService.GoNext(viewModel);
         }
     }
 }
