@@ -6021,9 +6021,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/DemoUnitTest.csproj",
-      "projectName": "DemoUnitTest",
-      "projectPath": "/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/DemoUnitTest.csproj",
+      "projectUniqueName": "/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/DeviceControlApp.UnitTests.csproj",
+      "projectName": "DeviceControlApp.UnitTests",
+      "projectPath": "/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/DeviceControlApp.UnitTests.csproj",
       "packagesPath": "/Users/audiology/.nuget/packages/",
       "outputPath": "/Users/audiology/Projects/TestingApp/DeviceControlApp/DemoUnitTest/obj",
       "projectStyle": "PackageReference",
