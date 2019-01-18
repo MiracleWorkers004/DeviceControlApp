@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "1ab27220b669556c1dd5ee22d03efea2a5e8af9b"
+    "signature": "60a4fc8580dca362d2e9923c2554f148d65c4400"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,8 @@
           "DeviceControlApp": "1.0.0",
           "MSTest.TestAdapter": "1.2.1",
           "MSTest.TestFramework": "1.2.1",
-          "Microsoft.NET.Test.Sdk": "15.7.0"
+          "Microsoft.NET.Test.Sdk": "15.7.0",
+          "NSubstituteAutoMocker": "1.1.0"
         },
         "runtime": {
           "DemoUnitTest.dll": {}
@@ -411,6 +412,25 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.1.19813"
+          }
+        }
+      },
+      "NSubstitute/1.8.2": {
+        "runtime": {
+          "lib/net45/NSubstitute.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          }
+        }
+      },
+      "NSubstituteAutoMocker/1.1.0": {
+        "dependencies": {
+          "NSubstitute": "1.8.2"
+        },
+        "runtime": {
+          "lib/net45/NSubstituteAutoMocker.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       },
@@ -1138,6 +1158,20 @@
       "sha512": "sha512-2okXpTRwUcgQb06put5LwwCjtgoFo74zkPksjcvOpnIjx7TagGW5IoBCAA4luZx1+tfiIhoNqoiI7Y7zwWGyKA==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "NSubstitute/1.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wSIf/umCq8azhKlF+Mon5TV6B8m/66+Pg7zJ1IH5L0z+1A3S3xSL/hrz5MX+uI2Bls06U5iK8rfTyXNXU2LKpg==",
+      "path": "nsubstitute/1.8.2",
+      "hashPath": "nsubstitute.1.8.2.nupkg.sha512"
+    },
+    "NSubstituteAutoMocker/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rtvWSfkd3qXBCAkbqCH9WqG/Psy16MRyZ6AarOsh6WVgsYxjljC+PQVEe7rfV+Updgcc6DO36n8oRiQcYXN2uw==",
+      "path": "nsubstituteautomocker/1.1.0",
+      "hashPath": "nsubstituteautomocker.1.1.0.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

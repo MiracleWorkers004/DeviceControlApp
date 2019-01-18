@@ -14,7 +14,7 @@ namespace DemoUnitTest
         {
 
 
-            await Task.Delay(100);
+         //   await Task.Delay(100);
             return new MyPosition() 
             {
                 Latitude = "1.0",

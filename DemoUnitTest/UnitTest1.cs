@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using DeviceControlApp.ViewModel;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using NSubstitute;
 
 namespace DemoUnitTest
 {
@@ -32,6 +33,16 @@ namespace DemoUnitTest
             Assert.AreEqual(true, canGoNext);
             Assert.AreEqual(typeof(ProductViewModel), dummyPageService.GetViewModelPageType());
         }
+
+        [TestMethod]
+        public void When_we_Click_Next_Page()
+        {
+            //bool IsMoved = false;
+            //var pageService = Substitute.For<IPageService>();
+            //pageService.GoNext(new object()).Do(()=>{
+            //    IsMoved = true;
+            //});
+        }
         [TestMethod]
         public void Test1Location()
         {
@@ -39,6 +50,7 @@ namespace DemoUnitTest
             var dummyLocationService = new DummyLocationService();
             var productPageViewModel = new ProductViewModel(dummyPageService,dummyLocationService);
             var canGetLocation = productPageViewModel.DisplayLocationCommand.CanExecute(null);
+            Assert.AreEqual(true, canGetLocation);
             productPageViewModel.DisplayLocationCommand.Execute(null);
 
             Assert.AreEqual("1.0", productPageViewModel.Latitude);

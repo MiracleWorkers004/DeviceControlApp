@@ -13,7 +13,7 @@ namespace DeviceControlApp.ViewModel
     public class ProductViewModel:BaseViewModel
     {
        
-        public ICommand BackCommand { get; private set; }
+        public ICommand BackCommand { get; private set; } //GoBackCommand
 
         public ICommand DisplayLocationCommand { get; private set; }
 
@@ -21,9 +21,6 @@ namespace DeviceControlApp.ViewModel
         public IPageService _pageService;
 
         public ILocationService _locationService;
-
-
-
 
         private string _latitude;
         public string Latitude
@@ -34,10 +31,11 @@ namespace DeviceControlApp.ViewModel
             {
 
                 _latitude = value;
-                NotifyPropertyChanged("Latitude");
+                NotifyPropertyChanged();
             }
 
         }
+
         private string _longitude;
         public string Longitude
         {
@@ -47,37 +45,35 @@ namespace DeviceControlApp.ViewModel
             {
 
                 _longitude = value;
-                NotifyPropertyChanged("Longitude");
+                NotifyPropertyChanged();
             }
 
         }
+
         public ProductViewModel(IPageService pageService,ILocationService locationService)
         {
 
             _pageService = pageService;
             _locationService = locationService;
           
-   
-
             BackCommand = new Command(OnBackCommand);
-            DisplayLocationCommand = new Command(() => { GetLocationSync(); });
+            DisplayLocationCommand = new Command(() => {  GetLocation(); });
+
         }
 
-        private async Task<int> GetLocation()
+        private async void GetLocation() //DisplayLocation
         {
 
             var myLocation = await _locationService.GetLocation();
             Latitude = myLocation.Latitude;
             Longitude = myLocation.Longitude;
-            return 1;
         }
 
-        private void GetLocationSync()
+
+        private async void GetLocationSync()
         {
-            GetLocation().Wait();
+          // await GetLocation();
         }
-
-
 
         public void OnBackCommand()
         {
