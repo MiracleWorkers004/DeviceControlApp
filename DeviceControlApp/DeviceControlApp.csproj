@@ -23,5 +23,6 @@
     <Compile Remove="Service\IPageService.cs" />
     <Compile Remove="Service\PageService.cs" />
     <Compile Remove="Service\NavigationService.cs" />
+    <Compile Remove="Model\DemoDate.cs" />
   </ItemGroup>
 </Project>

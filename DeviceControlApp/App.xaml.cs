@@ -1,6 +1,7 @@
 ﻿using System;
-
+using DeviceControlApp.Services;
 using DeviceControlApp.View;
+using DeviceControlApp.ViewModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,12 +10,12 @@ namespace DeviceControlApp
 {
     public partial class App : Application
     {
-      //  public static IPageService pageService { get; } = new PageService();
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new HomePage());
+            var homePage = new HomePage();
+            homePage.BindingContext = new HomePageViewModel(new PageService(), new LocationService());
+            MainPage = new NavigationPage(homePage);
         }
 
         protected override void OnStart()

@@ -1,5 +1,4 @@
 ﻿using System;
-using DeviceControlApp.Model;
 using NUnit.Framework;
 
 namespace iOSDemo

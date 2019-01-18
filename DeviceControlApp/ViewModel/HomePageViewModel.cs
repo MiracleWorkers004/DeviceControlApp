@@ -8,7 +8,7 @@ namespace DeviceControlApp.ViewModel
 {
     public class HomePageViewModel
     {
-        public ICommand NextCommand { get; private set; }  //GoToNextCommand
+        public ICommand GoToNextCommand { get; private set; }  
       
         private IPageService _pageService;
 
@@ -18,13 +18,12 @@ namespace DeviceControlApp.ViewModel
         {
             _pageService = pageService;
             _locationService = locationService;
-            NextCommand = new Command(OnNextCommand);
+            GoToNextCommand = new Command(GoToNextPage);
         }
 
-        public async void OnNextCommand()
+        public async void GoToNextPage()
         {
             var viewModel = new ProductViewModel(_pageService,_locationService);
-
             await _pageService.GoNext(viewModel);
         }
     }

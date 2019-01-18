@@ -1,10 +1,7 @@
-using DeviceControlApp.Model;
 using System.Threading.Tasks;
-
 using DeviceControlApp.ViewModel;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using NSubstitute;
 
 namespace DemoUnitTest
 {
@@ -12,23 +9,13 @@ namespace DemoUnitTest
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
-        {
-
-            var demo = new DemoDate();
-            demo.Message = "Hi";
-            Assert.AreEqual("Hi", demo.Message);
-        }
-
-
-        [TestMethod]
         public void When_we_go_next_in_home_then_we_go_to_products_page()
         {
             var dummyPageService = new DummyPageService();
             var locationdumyService = new DummyLocationService();
             var homePageViewModel = new HomePageViewModel(dummyPageService,locationdumyService);
-            var canGoNext = homePageViewModel.NextCommand.CanExecute(null);
-            homePageViewModel.NextCommand.Execute(null);
+            var canGoNext = homePageViewModel.GoToNextCommand.CanExecute(null);
+            homePageViewModel.GoToNextCommand.Execute(null);
 
             Assert.AreEqual(true, canGoNext);
             Assert.AreEqual(typeof(ProductViewModel), dummyPageService.GetViewModelPageType());

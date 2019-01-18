@@ -1,10 +1,13 @@
 ﻿<Properties StartupConfiguration="{DD847360-3E28-4657-B782-C22F58AF19F1}|Default">
   <MonoDevelop.Ide.ItemProperties.DemoUnitTest PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DeviceControlUnitTestDemo PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceControlApp/ViewModel/ProductViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUnitTest/UnitTest1.cs">
     <Files>
-      <File FileName="DeviceControlApp/ViewModel/HomePageViewModel.cs" Line="24" Column="1" />
-      <File FileName="DeviceControlApp/ViewModel/ProductViewModel.cs" Line="16" Column="63" />
+      <File FileName="DeviceControlApp/Services/LocationService.cs" Line="19" Column="1" />
+      <File FileName="DeviceControlApp/Services/ILocationService.cs" Line="17" Column="1" />
+      <File FileName="DeviceControlApp/Services/IPageService.cs" Line="7" Column="6" />
+      <File FileName="DeviceControlApp/View/PageService.cs" Line="25" Column="1" />
+      <File FileName="DemoUnitTest/UnitTest1.cs" Line="11" Column="8" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">

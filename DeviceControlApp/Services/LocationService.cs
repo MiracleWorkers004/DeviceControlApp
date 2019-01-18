@@ -7,8 +7,6 @@ namespace DeviceControlApp.Services
 {
     public class LocationService : ILocationService
     {
-
-
         public async Task<MyPosition> GetLocation()
         {
             var locator = CrossGeolocator.Current;
@@ -18,7 +16,6 @@ namespace DeviceControlApp.Services
             {
                 Latitude = position.Latitude.ToString(),
                 Longitude = position.Longitude.ToString(),
-
             };
         }
     }
