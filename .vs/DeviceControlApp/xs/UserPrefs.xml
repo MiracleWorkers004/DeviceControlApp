@@ -1,8 +1,26 @@
-﻿<Properties StartupConfiguration="{873E2651-CC92-4621-A828-CB5785D504DC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DeviceControlApp.Android/MainActivity.cs">
+﻿<Properties StartupConfiguration="{DD847360-3E28-4657-B782-C22F58AF19F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUnitTest/LocationPageTests.cs">
     <Files>
-      <File FileName="DeviceControlApp.Android/MainActivity.cs" Line="22" Column="10" />
+      <File FileName="DeviceControlApp/View/ProductPage.xaml" Line="15" Column="52" />
+      <File FileName="DeviceControlApp/ViewModel/ProductViewModel.cs" Line="70" Column="26" />
+      <File FileName="DemoUnitTest/LocationPageTests.cs" Line="115" Column="1" />
+      <File FileName="DemoUnitTest/UnitTest1.cs" Line="21" Column="12" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DeviceControlApp" expanded="True">
+            <Node name="DeviceControlApp.UnitTests" expanded="True">
+              <Node name="DeviceControlApp" expanded="True">
+                <Node name="LocationPageTests" expanded="True">
+                  <Node name="When_we_hit_back_then_we_go_home_page" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DeviceControlApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
