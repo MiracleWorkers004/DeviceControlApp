@@ -1,25 +1,17 @@
 ﻿<Properties StartupConfiguration="{DD847360-3E28-4657-B782-C22F58AF19F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUnitTest/DummyLocationService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoUnitTest/LocationPageTests.cs">
     <Files>
       <File FileName="DeviceControlApp/View/ProductPage.xaml" Line="19" Column="1" />
-      <File FileName="DeviceControlApp/ViewModel/ProductViewModel.cs" Line="70" Column="26" />
-      <File FileName="DemoUnitTest/LocationPageTests.cs" Line="9" Column="11" />
-      <File FileName="DemoUnitTest/HomePageTests.cs" Line="14" Column="47" />
-      <File FileName="DemoUnitTest/DummyPageService.cs" Line="5" Column="37" />
-      <File FileName="DemoUnitTest/DummyLocationService.cs" Line="5" Column="37" />
+      <File FileName="DeviceControlApp/ViewModel/ProductViewModel.cs" Line="1" Column="1" />
+      <File FileName="DemoUnitTest/LocationPageTests.cs" Line="1" Column="1" />
+      <File FileName="DemoUnitTest/DummyPageService.cs" Line="1" Column="1" />
+      <File FileName="DemoUnitTest/DummyLocationService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
           <Node name="DeviceControlApp" expanded="True">
-            <Node name="DeviceControlApp.UnitTests" expanded="True">
-              <Node name="DemoUnitTest" expanded="True">
-                <Node name="HomePageTests" expanded="True" />
-              </Node>
-              <Node name="DeviceControlApp" expanded="True">
-                <Node name="LocationPageTests" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="DeviceControlApp.UnitTests" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -27,7 +19,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DeviceControlApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
-  <MonoDevelop.Ide.ItemProperties.DeviceControlApp.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
