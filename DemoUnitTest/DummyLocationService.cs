@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using DeviceControlApp.Services;
 
-namespace DemoUnitTest
+namespace DeviceControlApp.UnitTests
 {
     internal class DummyLocationService:ILocationService
     {

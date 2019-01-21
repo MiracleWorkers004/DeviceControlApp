@@ -14,6 +14,7 @@ namespace DeviceControlApp.ViewModel
        
         public ICommand GoBackCommand { get; private set; }
         public ICommand DisplayLocationCommand { get; private set; }
+        public ICommand ClearLocationCommand { get; private set; }
         public IPageService _pageService;
         public ILocationService _locationService;
 
@@ -41,6 +42,16 @@ namespace DeviceControlApp.ViewModel
                 NotifyPropertyChanged();
             }
         }
+        private bool _flag;
+        public bool Flag
+        {
+            get => _flag;
+            set
+            {
+                _flag = value;
+                NotifyPropertyChanged();
+            }
+        }
 
         public ProductViewModel(IPageService pageService,ILocationService locationService)
         {
@@ -49,6 +60,14 @@ namespace DeviceControlApp.ViewModel
           
             GoBackCommand = new Command(GoToHomePage);
             DisplayLocationCommand = new Command(() => { DisplayLocation(); });
+            ClearLocationCommand = new Command(ClearLocation);
+        }
+
+        private void ClearLocation()
+        {
+            Latitude = "";
+            Longitude = "";
+            Flag = false;
         }
 
         private async void DisplayLocation() 
@@ -56,7 +75,9 @@ namespace DeviceControlApp.ViewModel
             var myLocation = await _locationService.GetLocation();
             Latitude = myLocation.Latitude;
             Longitude = myLocation.Longitude;
+            Flag = true;
         }
+
 
         public void GoToHomePage() 
         {

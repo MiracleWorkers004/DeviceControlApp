@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using DeviceControlApp.ViewModel;
 
-namespace DemoUnitTest
+namespace DeviceControlApp.UnitTests
 {
     public class DummyPageService:IPageService
     {
