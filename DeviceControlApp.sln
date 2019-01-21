@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceControlApp.iOS", "Dev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceControlApp", "DeviceControlApp\DeviceControlApp.csproj", "{F3B95DBC-280E-480C-8F52-1F570B8AB17E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceControlApp.UnitTests", "DemoUnitTest\DeviceControlApp.UnitTests.csproj", "{6517F140-28F8-4965-BA31-F3160E82C873}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceControlApp.UnitTests", "DeviceControlApp.UnitTests\DeviceControlApp.UnitTests.csproj", "{6517F140-28F8-4965-BA31-F3160E82C873}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
