@@ -3,10 +3,10 @@ using DeviceControlApp.ViewModel;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace DemoUnitTest
+namespace DeviceControlApp.UnitTests
 {
     [TestClass]
-    public class HomePageTest
+    public class HomePageTests
     {
         [TestMethod]
         public void When_we_hit_next_then_we_go_to_location_page()
@@ -20,9 +20,5 @@ namespace DemoUnitTest
             Assert.AreEqual(true, canGoNext);
             Assert.AreEqual(typeof(ProductViewModel), dummyPageService.GetViewModelPageType());
         }
-
-      
-
-
     }
 }
